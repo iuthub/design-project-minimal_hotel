@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Hotel Booking</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="../js/slider.js"></script>
+</head>
+<body>
+
+	<div id="header">
+		<a href="index.html"> 
+			<img src="../img/logo2.png" id="logo">
+		</a>	
+		<nav id="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Rooms</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+		</nav>
+		
+		<!--<p id="login">
+			<a href="login.html">Sign in</a>
+			<a href="#">Sign up</a>
+		</p>-->
+
+	</div>
+	
+	<div class="container">
+	
+		<input type="radio" id="i1" name="images" checked />
+		<input type="radio" id="i2" name="images" />
+		<input type="radio" id="i3" name="images" />
+		<input type="radio" id="i4" name="images" />
+		<input type="radio" id="i5" name="images" />	
+	
+		<div class="slide_img" id="one">			
+			
+			<img src="../img/img5.jpg">
+			
+				<label class="prev" for="i5"><span>&#x2039;</span></label>
+				<label class="next" for="i2"><span>&#x203a;</span></label>	
+		
+		</div>
+	
+		<div class="slide_img" id="two">
+		
+			<img src="../img/img4.jpg " >
+			
+				<label class="prev" for="i1"><span>&#x2039;</span></label>
+				<label class="next" for="i3"><span>&#x203a;</span></label>
+		
+		</div>
+			
+		<div class="slide_img" id="three">
+			<img src="../img/img3.jpg">	
+			
+				<label class="prev" for="i2"><span>&#x2039;</span></label>
+				<label class="next" for="i4"><span>&#x203a;</span></label>
+		</div>
+
+		<div class="slide_img" id="four">
+			<img src="../img/img2.jpg">	
+			
+				<label class="prev" for="i3"><span>&#x2039;</span></label>
+				<label class="next" for="i5"><span>&#x203a;</span></label>
+		</div>
+
+		<div class="slide_img" id="five">
+			<img src="../img/img1.jpg">	
+			
+				<label class="prev" for="i4"><span>&#x2039;</span></label>
+				<label class="next" for="i1"><span>&#x203a;</span></label>
+
+		</div>
+
+		<div id="nav_slide">
+		<label for="i1" class="dots" id="dot1"></label>
+		<label for="i2" class="dots" id="dot2"></label>
+		<label for="i3" class="dots" id="dot3"></label>
+		<label for="i4" class="dots" id="dot4"></label>
+		<label for="i5" class="dots" id="dot5"></label>
+		</div>
+		
+	</div>
+
+
+	<div id="body">
+		<img src="../img/hotel.jpg" class="hotels">
+		<h1>
+			About us
+		</h1>
+		<p id="about">
+			The story of our company began in 2000, when we opened our first factory with own production under the ARMATURY Group brand at Dolní Benešov. We have just extended the long tradition and history of production of industrial valves in the Opava and Hlučín Region beginning in the middle of the last century. Thanks to the merger of three companies operating in the Czech Republic and Slovakia in the field of production, sales and servicing of valves, we have acquired not only a valuable capital but also a lot of experience that we are constantly moving forward. Today our company specializes mainly in the production of industrial valves, technological units and related services. Wide range of goods, quality of production, customization according to customer requirements, and human approach make us a sought-for partner for a number of small and large companies not only in the Czech Republic.
+		</p>
+		<h1>
+			Why You Should Choose Us?
+		</h1>
+		<img src="../img/hotel1.jpg" id="hotel2">
+		<p id="why">
+			The strength of our production lies in years of experience, tailored production and investment in new technologies. Annually we produce more than 60,000 valves and supply 500,000 items of metallurgical material to companies from 65 countries of the world. The flood of new orders not only from the Czech Republic but also from countries all over the world allows us to expand our production and to gather more experience.
+		</p>
+		<div id="contactus">
+			<a href=""><img src=""></a>
+			<a href=""><img src=""></a>
+			<a href=""><img src=""></a>
+			<a href=""><img src=""></a>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<script>
+      function myMap() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+          center: new google.maps.LatLng(41.338341, 69.334471), 
+          zoom: 17
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+      }
+    </script>
+		 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASXXz1qu4Hyh-h45qJ4S6hiYdqRCA4Jd4&callback=myMap"></script>>
+	</div>	
+
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyHotel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" >
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css">
+	<link rel="stylesheet" type="text/css" href="css/style_.css">
+</head>
+<body>
+
+
+
+
+ 
+
+<div class="container">
+	<br><br>
+<div class="row">
+	<div class="col-md-5 px-4">
+		<div class="card">
+		<img src="img/room.jpg">
+	</div>
+	</div>
+	<div class="col-md-7">
+		<h2 >Single , Business</h2>
+		<br>
+		<div class="row">
+			<div class="col-6"> <h4><span class="fa fa-bed"></span> 1 Bed </h4> </div>
+			<div class="col-6"><h4><span class="fa fa-space-shuttle"></span> Gym facilities</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-6"> <h4><span class="fa fa-coffee"></span> Breakfast </h4> </div>
+			<div class="col-6"><h4><span class="fa fa-tv"></span> TV LCD </h4></div>
+		</div>
+		<div class="row">
+			<div class="col-6"> <h4><span class="fa fa-certificate"></span> Air conditioning</h4> </div>
+			<div class="col-6"><h4><span class="fa fa-wifi"></span> Wi-Fi service</h4></div>
+		</div>
+		<div class="row">
+		<button class="btn bg-fiolet ml-auto"><a href="book.html" class="white-color">Book</a></button>
+		</div>
+	</div>
+</div>
+<br><br>
+<div class="row">
+	<div class="col-md-5 px-4">
+		<div class="card">
+		<img src="img/room1.jpg">
+	</div>
+	</div>
+	<div class="col-md-7">
+		<h2 >Double , Family</h2>
+		<br>
+		<div class="row">
+			<div class="col-6"> <h4><span class="fa fa-bed"></span> 2 Bed </h4> </div>
+			<div class="col-6"><h4><span class="fa fa-space-shuttle"></span> Gym facilities</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-6"> <h4><span class="fa fa-coffee"></span> Breakfast </h4> </div>
+			<div class="col-6"><h4><span class="fa fa-tv"></span> TV LCD </h4></div>
+		</div>
+		<div class="row">
+			<div class="col-6"> <h4><span class="fa fa-certificate"></span> Air conditioning</h4> </div>
+			<div class="col-6"><h4><span class="fa fa-wifi"></span> Wi-Fi service</h4></div>
+		</div>
+		<div class="row">
+		<button class="btn bg-fiolet ml-auto"><a href="book.html" class="white-color">Book</a></button>
+		</div>
+	</div>
+</div>
+<br><br>
+<div class="row">
+	<div class="col-md-5 px-4">
+		<div class="card">
+		<img src="img/room2.jpg">
+	</div>
+	</div>
+	<div class="col-md-7">
+		<h2 >Luxury , Presidential</h2>
+		<br>
+		<div class="row">
+			<div class="col-6"> <h4><span class="fa fa-bed"></span> 1 bed + 2 bed </h4> </div>
+			<div class="col-6"><h4><span class="fa fa-space-shuttle"></span> Gym facilities</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-6"> <h4><span class="fa fa-coffee"></span> Breakfast </h4> </div>
+			<div class="col-6"><h4><span class="fa fa-tv"></span> TV LCD </h4></div>
+		</div>
+		<div class="row">
+			<div class="col-6"> <h4><span class="fa fa-certificate"></span> Air conditioning</h4> </div>
+			<div class="col-6"><h4><span class="fa fa-wifi"></span> Wi-Fi service</h4></div>
+		</div>
+		<div class="row">
+		<button class="btn bg-fiolet ml-auto"><a href="book.html" class="white-color">Book</a></button>
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+
+
+
+<br><br>
+<footer>
+	<div class="container-fluid bg-fiolet ">
+    <div class="row card_mar">
+     
+      <div class="col-md-6 " >
+        <div class="card ">   
+             <div class="jojo " id="map">    
+        </div>
+      </div>
+
+        <script>
+      function myMap() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+          center: new google.maps.LatLng(41.338341, 69.334471), 
+          zoom: 17
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASXXz1qu4Hyh-h45qJ4S6hiYdqRCA4Jd4&callback=myMap"></script>
+      </div>
+      <div class="col-md-6 ">
+        
+
+       <ul class="white-color mt-md-4 font-size-">
+         <li>
+           <b>Office: </b> 9,Ziyolilar str., M.Ulugbek district, Tashkent city    
+         </li>
+         <li>
+           <b>Phone: </b> +998 91 290 69 55 
+         </li>
+         <li>
+           <b>Fax: </b> +998 74 290 69 55 
+         </li>
+         <li>
+           <b>Email: </b> bbset@bk.ru
+        </li>
+       </ul>
+      
+     <div class="ml-5">
+       <a href="#" class="fa fa- fa-facebook"></a>
+        <a href="#" class="fa fa- fa-twitter"></a>
+        <a href="#" class="fa fa- fa-google"></a>
+        <a href="#" class="fa fa- fa-linkedin"></a>
+        <a href="#" class="fa fa- fa-youtube"></a>
+     </div>
+
+
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+</body>
+</html>

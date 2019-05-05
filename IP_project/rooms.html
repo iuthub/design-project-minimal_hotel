@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html style="background: white;">
+<head>
+	<title>Rooms</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css"></link>
+</head>
+<body>
+	<header style="background: black;">
+		<a href="index.html"><img src="img/lg.png" id="logo"></a>
+	</header>
+
+	<nav style="background: black;">
+		<ul>
+			<li><a href="index.html" >Home</a></li>
+			<li><a href="book.html" >Book</a></li>
+			<li class="active"><a href="rooms.html" class="active">Rooms</a></li>
+			<li><a href="contactus.html" >Contact us</a></li>
+			<li><a href="login.html" >Login</a></li>
+  		</ul>
+	</nav>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).on('click', 'ul li', function(){
+			$(this).addClass('active').siblings().removeClass('active')
+		})
+	</script>
+	<h1 style="background-color: white;font-size: 40px;padding-top: 30px; ">Booking</h1>
+	<section class="rooms" style="background: white;">
+		<div>
+			<img src="img/room.jpg">
+			<h1>Single , Business</h1>
+			<a href="book.html"><h4>Book</h4></a>
+		</div>
+		<div>
+			<img src="img/room1.jpg">
+			<h1>Double , Family</h1>
+			<a href="book.html"><h4>Book</h4></a>
+		</div>
+		<div>
+			<img src="img/room2.jpg">
+			<h1>Luxury , Presidential</h1>
+			<a href="book.html"><h4>Book</h4></a>
+		</div>
+
+		<div>
+			<img src="img/room3.jpg">
+			<h1>Single , Business</h1>
+			<a href="book.html"><h4>Book</h4></a>
+		</div>
+		<div>
+			<img src="img/room4.jpg">
+			<h1>Double , Family</h1>
+			<a href="book.html"><h4>Book</h4></a>
+		</div>
+		<div>
+			<img src="img/room5.jpg">
+			<h1>Luxury , Presidential</h1>
+			<a href="book.html"><h4>Book</h4></a>
+
+		</div>
+		
+	</section>
+
+</body>
+
+</html>

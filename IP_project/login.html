@@ -1,0 +1,76 @@
+<?php include ('server.php')?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<a href="index.html"><img src="img/lg.png" id="logo"></a>
+	</header>
+
+	<nav >
+		<ul>
+			<li><a href="index.html" class="active">Home</a></li>
+			<li><a href="book.html" class="active">Book</a></li>
+			<li><a href="rooms.html" class="active">Rooms</a></li>
+			<li><a href="contactus.html" class="active">Contact us</a></li>
+			<li class="active"><a href="login.html" class="active">Login</a></li>
+  		</ul>
+	</nav>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).on('click', 'ul li', function(){
+			$(this).addClass('active').siblings().removeClass('active')
+		})
+	</script>
+<section class="loginbox">
+	<section class="login">
+		<img src="img/avatar.png" class="avatar">
+		<h1>Login Here</h1>
+		<form>
+			<?php include('errors.php') ?>
+			<p>Username</p>
+			<input type="text" name="" placeholder="Enter Username">
+			<p>Password</p>
+			<input type="password" name="" placeholder="Enter Password">
+			<input type="submit" name="" value="Login"><a href="index2.php"> Log in</a></button>
+		</form>
+
+	</section>
+</section>
+	<div id="footer">
+		<div class="location">
+		<div id="adress">
+			<dl class="white-color mt-md-4 font-size-">
+         <li style="color: white;font-size: 15pt;margin-left: 10px;">
+           <b>Office: </b> 9,Ziyolilar str., M.Ulugbek district, Tashkent city    
+         </li>
+         <li style="color: white;font-size: 15pt;margin-left: 10px;">
+           <b>Phone: </b> +998 91 290 69 55 
+         </li>
+         <li style="color: white;font-size: 15pt;margin-left: 10px;">
+           <b>Fax: </b> +998 74 290 69 55 
+         </li>
+         <li style="color: white;font-size: 15pt;margin-left: 10px;">
+           <b>Email: </b> bbset@bk.ru
+        </li>
+       		</dl>
+		</div>
+		</div>	
+
+		<div class="followus">
+			<h3 style="color:white;">Follow us on:</h3>
+			<a href="https://www.facebook.com/"><img src="img/facebook.png"></a>
+			<a href="https://www.youtube.com"><img src="img/youtube.png"></a>
+			<a href="https://www.linkein.com"><img src="img/linkedin.png"></a>
+			<a href="https://www.instagram.com"><img src="img/instagram.png"></a>
+			<a href="https://www.twitter.com"><img src="img/twitter.png"></a>
+			<a href="https://www.google.com"><img src="img/google.png"></a>
+	
+		</div>
+	</div>	
+</body>
+</html>
